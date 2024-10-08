@@ -1,4 +1,3 @@
-print("Hello World")
 
 salary = 2500
 name = "Shreshth sharma"
