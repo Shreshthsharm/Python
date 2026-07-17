@@ -26,7 +26,7 @@ except ValueError:
 # #error 4
 friends=["shreshth","kanak","ansh"]
 try:
-    friends[4]
+    friends[3]
 except IndexError:
     print("wrong index pass")
 #error5

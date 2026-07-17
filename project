@@ -1,0 +1,28 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+# Load dataset
+df = pd.read_csv("sales_data.csv")
+# Show first 5 rows
+print("Dataset Preview:")
+print(df.head())
+# Create Total Sales column
+df["Total_Sales"] = df["Quantity"] * df["Price"]
+print("Data with Total Sales:")
+print(df)
+# 1. Total Sales
+total_sales = df["Total_Sales"].sum()
+print("Total Sales:", total_sales)
+# 2. Best Selling Product
+best_product = df.groupby("Product")["Total_Sales"].sum().sort_values(ascending=False)
+print("Best Selling Products:")
+print(best_product)
+# 3. Category Wise Sales
+category_sales = df.groupby("Category")["Total_Sales"].sum()
+print("Category Wise Sales:")
+print(category_sales)
+# 4. Plot Graph
+category_sales.plot(kind="bar")
+plt.title("Category Wise Sales")
+plt.xlabel("Sales")
+plt.ylabel("Category")
+plt.show()

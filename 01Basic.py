@@ -1,5 +1,5 @@
 
-salary = 2500
+salary = 3200000
 name = "Shreshth sharma"
 email = "shreshthasharma2804gmail.com"
 print(salary)

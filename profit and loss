@@ -1,0 +1,10 @@
+cp=int(input("enter number cp=>"))
+sp=int(input("enter number sp=>"))
+if cp<sp:
+    p=sp-cp
+    print("you take profit",p)
+elif cp>sp:
+    p=sp-cp
+    print("you take loss",p)
+else:
+     print("no profit no loss")

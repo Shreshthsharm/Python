@@ -1,0 +1,10 @@
+Product,Category,City,Quantity,Price
+Laptop,Electronics,Delhi,1,50000
+Mouse,Accessories,Delhi,2,400
+Keyboard,Accessories,Mumbai,1,1500
+Monitor,Electronics,Pune,1,15000
+Laptop,Electronics,Delhi,1,52000
+Mouse,Accessories,Mumbai,3,1200
+Keyboard,Accessories,Delhi,2,3000
+Monitor,Electronics,Bengaluru,1,18000
+Laptop,Electronics,Pune,1,48000
